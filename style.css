@@ -22,3 +22,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
   font-weight: 400;
   font-style: normal;
 } /* clean font */
+iframe {
+  border-radius: 20px;
+}
