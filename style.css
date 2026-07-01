@@ -2,7 +2,7 @@ body {
   padding: 75px;
   font-family: "Segoe UI";
   background-color: #bb2400;
-  color: lightskyblue; /* this changes text color */
+  color: white; /* this changes text color */
 }
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
   transform: translateX(2px);
