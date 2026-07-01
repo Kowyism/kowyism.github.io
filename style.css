@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=VT323&display=swap');
 body {
   padding: 75px;
-  font-family: "Segoe UI";
+  /*
+  font-family: "Segoe UI", sans-serif;
+  */
   background-color: #bb2400;
   color: white; /* this changes text color */
 }
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
   transform: translateX(2px);
 }
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+} /* pixelated font */
+
+.dm-sans-font, body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} /* clean font */
