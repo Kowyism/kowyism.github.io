@@ -5,7 +5,7 @@ body {
   /*
   font-family: "Segoe UI", sans-serif;
   */
-  font-family: "m6x11", "Workbench", sans-serif; /* balatro font */
+  font-family: "m6x11", sans-serif; /* balatro font */
   background-color: #bb2400;
   color: white; /* this changes text color */
 }
@@ -25,14 +25,14 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
   font-style: normal;
 } /* clean font */
 
-.workbench-pixel {
+.workbench-pixel, body {
   font-family: "Workbench", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "BLED" 0,
-    "SCAN" 0;
+    "SCAN" -24;
 }
 iframe {
   border-radius: 20px;
