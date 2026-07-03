@@ -49,6 +49,7 @@ button {
   padding: 5px;
   background-color: #992400;
   color: white;
+  border-radius: 3px;
 }
 @keyframes move {
         0% {
