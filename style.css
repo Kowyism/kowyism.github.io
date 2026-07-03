@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=VT323&family=Workbench&display=swap');
-@import url('https://cors-anywhere.followalong.com/https://raw.githubusercontent.com/colepeters/m6x11/master/m6x11.ttf');
+@font-face {
+  font-family: "m6x11";
+  src: url("https://cors-anywhere.followalong.com/https://raw.githubusercontent.com/colepeters/m6x11/master/m6x11.ttf") format("truetype");
+}
 body {
   padding: 75px;
   /*
   font-family: "Segoe UI", sans-serif;
   */
-  font-family: "m6x11", sans-serif; /* balatro font */
+  font-family: "m6x11", "Workbench", sans-serif; /* balatro font */
   background-color: #bb2400;
   color: white; /* this changes text color */
   text-shadow: 0 0 10px #fff;
   animation: move 10s ease-in-out infinite alternate;
-  transition: text-shadow 2s ease-in-out, transform 0.5s ease-in-out;
 }
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover {
   transform: translateX(10px);
   text-shadow: 0 0 25px #fff;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+  transition: text-shadow 2s ease-in-out, transform 0.5s ease-in-out;
 }
 .vt323-regular {
   font-family: "VT323", monospace;
@@ -29,7 +34,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover {
   font-style: normal;
 } /* clean font */
 
-.workbench-pixel, body {
+.workbench-pixel {
   font-family: "Workbench", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -43,13 +48,13 @@ iframe {
 }
 a {
   padding-left: 25px;
-  color: blue;
+  color: skyblue;
 }
 button {
   padding: 5px;
   background-color: #992400;
   color: white;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 @keyframes move {
         0% {
