@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=VT323&family=Workbench&display=swap');
 @font-face {
   font-family: "m6x11";
-  src: url("https://raw.githubusercontent.com/colepeters/m6x11/master/m6x11.ttf") format("truetype");
+  src: url("https://cdn.jsdelivr.net/gh/colepeters/m6x11@master/m6x11.ttf") format("truetype");
 }
 body {
   padding: 75px;
