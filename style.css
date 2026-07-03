@@ -9,7 +9,7 @@ body {
   background-color: #bb2400;
   color: white; /* this changes text color */
 }
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover {
   transform: translateX(2px);
 }
 .vt323-regular {
@@ -38,5 +38,5 @@ iframe {
   border-radius: 20px;
 }
 a {
-  padding-left: 5px;
+  padding-left: 25px;
 }
