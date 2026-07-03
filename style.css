@@ -27,3 +27,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
 iframe {
   border-radius: 20px;
 }
+a {
+  padding-left: 5px;
+}
