@@ -43,6 +43,7 @@ iframe {
 }
 a {
   padding-left: 25px;
+  color: blue;
 }
 @keyframes move {
         0% {
