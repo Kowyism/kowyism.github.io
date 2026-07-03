@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=VT323&family=Workbench&display=swap');
 @font-face {
   font-family: "m6x11";
-  src: url("https://cdn.jsdelivr.net/gh/yorickguacamole/m6x11-font@main/m6x11plus.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/yorickguacamole/m6x11-font@main/m6x11plus.woff2") format("woff2");
 }
 body {
   padding: 75px;
@@ -13,6 +13,7 @@ body {
   color: white; /* this changes text color */
   text-shadow: 0 0 10px #fff;
   animation: move 10s ease-in-out infinite alternate;
+  font-size: 1.5em;
 }
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover {
   transform: translateX(10px);
