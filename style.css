@@ -78,3 +78,7 @@ button {
           transform: translateX(-5px) translateY(-5px);
         }
       }
+hr {
+  border: none;
+  background-color: white;
+}
