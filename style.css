@@ -83,3 +83,7 @@ hr {
   border-color: white;
   border-radius: 3px;
 }
+li > a {
+  padding-left: 0px;
+  color: skyblue;
+}
